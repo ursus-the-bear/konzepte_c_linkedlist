@@ -12,8 +12,17 @@
 int main(int argc, const char * argv[]) {
     
     node_t * myList;
+    myList = EMPTY_LIST;
 
+    // call the constructor
+    new (myList);
+    
+    // now add a couple of elements
     add (myList, 1);
     add (myList, 2);
+    add (myList, 3);
+    
+    // and print the list
+    print (myList);
     
 }

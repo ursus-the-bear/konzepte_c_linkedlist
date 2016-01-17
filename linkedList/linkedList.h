@@ -17,7 +17,7 @@ typedef int boolean;
 
 typedef struct node {
     int i;
-    struct node * next;
+    struct node *next;
 } node_t;
 
 
@@ -26,8 +26,8 @@ boolean new (node_t * list);
 boolean create (node_t * list);
 boolean add (node_t * list, int i);
 boolean deleteAll (node_t * list);
-boolean isEmpty (const node_t * list);
-boolean print (const node_t * list);
+boolean isEmpty (node_t * list);
+boolean print (node_t * list);
 
 
 #endif /* linkedList_h */
