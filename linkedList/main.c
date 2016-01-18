@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
     node_t * myList;
     myList = EMPTY_LIST;
 
-    // call the constructor
+    // call the constructor because I have one
     new (myList);
     
     // now add a couple of elements
